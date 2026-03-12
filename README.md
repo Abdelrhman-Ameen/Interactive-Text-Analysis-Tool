@@ -14,18 +14,18 @@ This repository contains a Streamlit app that inspects and improves English text
 ---
 
 ##  Features
-- ✅ Grammar & style suggestions (`language_tool_python`)  
-- ✅ Text cleaning (tokenization, stopwords)  
-- ✅ POS tagging & lemmatization  
-- ✅ Readability metrics (Flesch, Flesch-Kincaid, Gunning Fog, ...)  
-- ✅ Sentiment analysis (TextBlob + VADER)  
-- ✅ Sentence simplification & word suggestions  
-- ✅ Paraphrasing via small seq2seq model (e.g., `t5-small`)  
-- ✅ Basic plagiarism-like checks via `sentence-transformers` + cosine similarity
+- Grammar & style suggestions (`language_tool_python`)  
+- Text cleaning (tokenization, stopwords)  
+- POS tagging & lemmatization  
+- Readability metrics (Flesch, Flesch-Kincaid, Gunning Fog, ...)  
+- Sentiment analysis (TextBlob + VADER)  
+- Sentence simplification & word suggestions  
+- Paraphrasing via small seq2seq model (e.g., `t5-small`)  
+- Basic plagiarism-like checks via `sentence-transformers` + cosine similarity
 
 ---
 
-## 📁 Files
+##Files
 - `app.py` — main Streamlit app  
 - `requirements.txt` — Python dependencies (add to repo)  
 - (optional) `Dockerfile` — for container deployment  
@@ -33,7 +33,7 @@ This repository contains a Streamlit app that inspects and improves English text
 
 ---
 
-## 🧰 Requirements
+## Requirements
 - Python 3.8+  
 - pip
   
